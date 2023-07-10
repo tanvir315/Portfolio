@@ -2,9 +2,22 @@ nav{
     display: flex; 
     justify-content: space-between; 
     align-items: center;
+    margin: 0 200px;
+    
 }
 body{
     font-family: 'Open Sans', sans-serif; 
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+}
+.profile{
+    width: 594px;
+    height: 676px;
 }
 .nav-title{
     color: #181818;
