@@ -10,10 +10,30 @@ body{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+.banner-description{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 .profile{
     width: 594px;
@@ -21,10 +41,10 @@ body{
 }
 .nav-title{
     color: #181818;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 45px;     
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .btn-primary{
     color: var(--white-color, #FFF);
@@ -37,6 +57,7 @@ line-height: normal;
     font-size: 20px;
     background: #FD6E0A; 
     border: 0px;
+    margin-right: 7px;
 }
 
 .text-primary{
@@ -54,3 +75,35 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    margin: 130px;
+}
+ .section-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+ main{
+    max-width: 1540px;
+    margin: 0 auto;
+ }
+ .about-info-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-info{
+    text-align: center;
+ }
