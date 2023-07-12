@@ -106,4 +106,12 @@ nav a{
  }
  .about-info{
     text-align: center;
+    
+ }
+ #what-i-do-description{
+    padding: 30px 200px;
+ }
+ .skill-container{
+    display: flex;
+    justify-content: space-around;
  }
