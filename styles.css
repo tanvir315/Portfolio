@@ -160,3 +160,16 @@ nav a{
     justify-content: center;
     margin: 0px 0px 0px 500px;
 }
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input , textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+}
