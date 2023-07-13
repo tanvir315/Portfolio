@@ -2,7 +2,7 @@ nav{
     display: flex; 
     justify-content: space-between; 
     align-items: center;
-    margin: 0 200px;
+    margin: 0px;
     
 }
 body{
@@ -58,6 +58,10 @@ body{
     background: #FD6E0A; 
     border: 0px;
     margin-right: 7px;
+}
+
+.btn-primary:hover{
+    color: #afa0a0;
 }
 
 .text-primary{
@@ -189,4 +193,11 @@ form{
 }
 .contact input[ type="submit"]{
     color: #ffffff; background-color: #afa0a0;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    border: 2px solid #d1d0d0;
 }
