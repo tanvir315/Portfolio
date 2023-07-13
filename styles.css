@@ -109,6 +109,7 @@ nav a{
  }
  .about-info{
     text-align: center;
+    margin: 5px;
     
  }
  #what-i-do-description{
@@ -146,14 +147,14 @@ nav a{
     font-weight: 700;
  }
  a{
-    color: rgb(243, 241, 241);
+    color: rgb(0, 0, 0);
     text-decoration: none;
  }
  
 .break{
     margin: 0px 0px 0px 330px;
     border-radius: 5px;
-    background: rgb(177, 168, 168);
+    background: rgb(0, 0, 0);
     box-shadow: 0px 6px 50px 0px rgba(0, 0.48, 0, 0.46);
 }
 #btn2{
@@ -166,10 +167,26 @@ footer{
     padding: 130px 200px;
 }
 .footer-column{
-    width: 50%;
+    
 }
-.contact input , textarea{
+.contact input[ type="text"] , .contact input[ type="email"] , .contact input[ type="submit"] , textarea
+{
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
     padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+
+}
+.social-links{
+    margin-right: 40px;
+}
+form{
+    margin: 0px 0px 0px 80px;
+}
+.contact input[ type="submit"]{
+    color: #ffffff; background-color: #afa0a0;
 }
